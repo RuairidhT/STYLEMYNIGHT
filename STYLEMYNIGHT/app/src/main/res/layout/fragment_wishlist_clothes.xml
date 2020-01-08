@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".WishlistClothesFragment">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/pink"
+        android:gravity="center_vertical"
+        android:text="@string/wishlist"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/wltitleTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/wlImage"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/wlPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:text="@string/item_price"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:stretchColumns="0,1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/wlLink"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/white_background"
+                android:elevation="10dp"
+                android:text="Buy it here" />
+
+            <Button
+                android:id="@+id/unfavouritebtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginHorizontal="10dp"
+                android:background="@drawable/pink_background"
+                android:text="@string/remove_from_wishlist" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</LinearLayout>

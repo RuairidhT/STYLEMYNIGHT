@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/dress"
+        android:layout_gravity="fill"
+        android:title="LOOK" />
+
+    <item
+        android:id="@+id/navigation_wishlist"
+        android:icon="@drawable/like"
+        android:layout_gravity="fill"
+        android:title="WISHLIST" />
+
+    <item
+        android:id="@+id/navigation_me"
+        android:icon="@drawable/smiling_girl"
+        android:layout_gravity="fill"
+        android:title="PROFILE" />
+
+</menu>

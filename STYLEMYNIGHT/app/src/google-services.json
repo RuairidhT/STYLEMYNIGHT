@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "182458267923",
+    "firebase_url": "https://stylemynight-b6c18.firebaseio.com",
+    "project_id": "stylemynight-b6c18",
+    "storage_bucket": "stylemynight-b6c18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182458267923:android:cfc6721925672264",
+        "android_client_info": {
+          "package_name": "com.stylemynight.ruairidh.stylemynight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182458267923-utu4sb45i6q0q8afveane1vabl5ugkm8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stylemynight.ruairidh.stylemynight",
+            "certificate_hash": "a8cf69ac7575a1a6ae3d9114fa99a12f8eb866f8"
+          }
+        },
+        {
+          "client_id": "182458267923-466glgtdbv2341nn3veeofpgaour28rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuHwb1xPyOJbhJzfUZ0Qu3fxs8XXwCJjQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182458267923-466glgtdbv2341nn3veeofpgaour28rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

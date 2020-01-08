@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WishlistEmptyFragment">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/pink"
+        android:gravity="center_vertical"
+        android:text="@string/wishlist"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_marginTop="180dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/like"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/your_wishlist_is_empty"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/shopBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/black"
+        android:text="@string/start_shopping" />
+
+
+</LinearLayout>

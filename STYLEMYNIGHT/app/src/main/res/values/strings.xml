@@ -1,0 +1,68 @@
+<resources>
+    <!--Facebook-->
+    <string name="facebook_app_id">246685749593815</string>
+    <string name="fb_login_protocol_scheme">fb246685749593815</string>
+
+    <string name="app_name">STYLEMYNIGHT</string>
+    <string name="email_address">   EMAIL ADDRESS</string>
+    <string name="password">   PASSWORD</string>
+    <string name="join_stylemynight">JOIN STYLEMYNIGHT</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_select_brand">SelectBrand</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up_today">Sign up today.</string>
+    <string name="sign_in_with_your_social_account">Sign in with your social account</string>
+    <string name="continue_as_guest">Continue as guest</string>
+    <string name="basket">BASKET</string>
+    <string name="select_your_brand">SELECT YOUR BRAND(S)</string>
+    <string name="next">Next</string>
+    <string name="title">Title</string>
+    <string name="item_price">item price</string>
+    <string name="item_link">item link</string>
+    <string name="add_to_wishlist">ADD TO WISHLIST</string>
+    <string name="profile">PROFILE</string>
+    <string name="looks_like_you_re_not_looged_in">Looks like you\'re not signed in.</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="sign_in_here">Sign in here.</string>
+    <string name="username">Username</string>
+    <string name="currently_signed_in_with_facebook">Currently signed in with Facebook</string>
+    <string name="sign_out">SIGN OUT</string>
+    <string name="select_your_look">SELECT YOUR LOOK</string>
+    <string name="neon">neon</string>
+    <string name="date_night">date night</string>
+    <string name="_90_s">90\'s</string>
+    <string name="brunch">brunch</string>
+    <string name="polka_dot">polka dot</string>
+    <string name="xmas_party">xmas party</string>
+    <string name="all">All</string>
+    <string name="night_out">Night out</string>
+    <string name="animal_print">Animal Print</string>
+    <string name="occasions">OCCASIONS</string>
+    <string name="trends">TRENDS</string>
+    <string name="select_your_price_range">SELECT YOUR PRICE RANGE</string>
+    <string name="_0_20">£0 - £20</string>
+    <string name="_20_30">£20 - £30</string>
+    <string name="_30_40">£30 - £40</string>
+    <string name="_40_50">£40 - £50</string>
+    <string name="_50">£50 +</string>
+    <string name="textview">TextView</string>
+    <string name="your_new_wardrobe">YOUR NEW WARDROBE</string>
+    <string name="wishlist">WISHLIST</string>
+    <string name="remove_from_wishlist">REMOVE</string>
+    <string name="your_wishlist_is_empty">Your Wishlist is empty</string>
+    <string name="start_shopping">START SHOPPING</string>
+    <string name="price">Price</string>
+    <string name="forgotten_password">Forgotten password?</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="outfit">OUTFIT</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="change_password">Change password</string>
+    <string name="welcome">Welcome,</string>
+    <string name="register">REGISTER</string>
+    <string name="cancel">CANCEL</string>
+
+
+</resources>
